@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Nunito:wght@300;400;500;600;700;800;900;1000&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+body{
+    background-color: var(--black);
+}
+
+
+
+:root{
+    --black: #000000;
+    --white: #fff;
+    --color-A:#5A9052;
+    --cinzel-font:'Cinzel', serif;
+    --nunito-font:'Nunito', sans-serif;
+}
+
+
+
+/* Single class starts here  */
+.cinzel-font{
+    font-family: var(--cinzel-font);
+    text-transform: capitalize;
+}
+
+.text-white{
+    color: var(--white);
+}
+
+.letter-spacing-5{
+    letter-spacing: 5%;
+}
+
+.letter-spacing-10{
+    letter-spacing: 10%;
+}
+
+.bg-color-A{
+    background-color: var(--color-A);
+}
+
+
+
+/* Button class starts here  */
+
+.btn-1{
+    padding: 5px 40px;
+    border-radius: 30px;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 24px;
+    line-height: 1em;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Fonst class starts here */
+
+.h1-70-70-900{
+    font-size: 70px;
+    line-height: 1em;
+    font-weight: 900;
+}
+
+.h2-60-60-400{
+    font-size: 60px;
+    line-height: 1em;
+    font-weight: 400;
+}
+
+.h2-40-40-700{
+    font-size: 40px;
+    line-height: 1em;
+    font-weight: 700;
+}
+
+.p-18-18-400{
+    font-size: 18px;
+    line-height: 1em;
+    font-weight: 400;
+}
+
+.p-18-25-400{
+    font-size: 18px;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+
+.p-18-18-500{
+    font-size: 18px;
+    line-height: 1em;
+    font-weight: 500;
+}
+
+.p-18-18-700{
+    font-size: 18px;
+    line-height: 1em;
+    font-weight: 700;
+}
+
+.p-24-24-600{
+    font-size: 24px;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+.p-24-24-700{
+    font-size: 24px;
+    line-height: 1em;
+    font-weight: 700;
+}
+
+
+
+
+/* Header section style starts here  */
+
+.navbar{
+    position: fixed;
+    z-index: 999;
+}
+
+.nav-item{
+    display: block;
+    transition: 0.5s;
+}
+
+.navbar-nav:hover .nav-item{
+    filter: blur(2px);
+}
+
+.navbar-nav:hover .nav-item:hover{
+    filter: blur(0px);
+    
+    
+}
+
+
+
+
+
+/* Hero section style starts here  */
+.hero-section{
+    height: 100vh;
+    padding: 150px 0 0 0;
+    text-align: center;
+    background-image: url(./images/hero-img.svg);
+    object-fit: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* About section style starts here  */
+.about-section{
+    padding: 50px 0;
+    margin: 50px 0;
+    background-image: url(./images/about-section-bg-img.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: fill;
+}
+
+.about-text-wrapper{
+    padding: 40px 60px;
+}
+
+/* Projects section style starts here  */
+
+.projects-section{
+    padding: 50px 0 100px 0;
+
+}
+
+.project-card{
+    position: relative;
+}
+
+.project-card-link{
+    border: 5px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #00000087;
+    opacity: 0;
+    transition: 0.5s;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-card-link:hover{
+    backdrop-filter: blur(5px);
+    opacity: 1;
+   
+}
+
+/* My advantage section starts here  */
+
+.advantage-section{
+    padding: 100px 0;
+    background-image: url(./images/my-advantage-section-bg-img.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    background-attachment: fixed;
+}
+
+.advantage-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+.skill-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 90px;
+    
+}
+
+.skill-card{
+    padding: 50px 0;
+    
+    border-radius: 100px;
+    background-color: var(--white);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* Education & experience section style starts here */
+
+.edc-exp-section{
+    padding: 100px 0;
+}
+
+
+
+/* Contact section style starts here  */
+.contact-section{
+    padding: 0 0 50px 0;
+}
+
+.social-icon-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-name-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}

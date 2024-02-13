@@ -1,0 +1,201 @@
+/* Responsive style sheet starts for 980px starts here  */
+
+@media (max-width: 980px) {
+  .navbar-nav {
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ffffff1a;   
+    backdrop-filter: blur(5px);
+  }
+
+  /* Button class style starts here  */
+
+  .btn-1 {
+    padding: 5px 20px;
+    font-size: 16px;
+  }
+
+  /* Font class starts here  */
+
+  .h1-70-70-900 {
+    font-size: 50px;
+    line-height: 1em;
+    font-weight: 900;
+  }
+
+  .h2-60-60-400 {
+    font-size: 40px;
+    line-height: 1em;
+    font-weight: 400;
+  }
+
+  .h2-40-40-700 {
+    font-size: 30px;
+    line-height: 1em;
+    font-weight: 700;
+  }
+
+  .p-18-25-400 {
+    font-size: 16px;
+    line-height: 1.2em;
+    font-weight: 400;
+  }
+
+  .p-24-24-600 {
+    font-size: 18px;
+    line-height: 1em;
+    font-weight: 600;
+  }
+
+  .p-18-18-500 {
+    font-size: 16px;
+    line-height: 1em;
+    font-weight: 500;
+  }
+
+  .p-18-18-400 {
+    font-size: 16px;
+    line-height: 1em;
+    font-weight: 400;
+  }
+
+  .p-24-24-700 {
+    font-size: 18px;
+    line-height: 1em;
+    font-weight: 700;
+  }
+
+  /* Hero section style starts here  */
+  .hero-section {
+    height: 100vh;
+    padding: 150px 0 0 0;
+    text-align: center;
+    background-image: url(./images/tab-size-hero-img.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  /* About section style starts here  */
+  .about-section {
+    padding: 50px 0;
+  }
+
+  .about-section img {
+    height: 100%;
+  }
+
+  .about-text-wrapper {
+    padding: 20px 20px;
+  }
+
+  /* My advantage section starts here  */
+
+  .skill-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 30px;
+  }
+
+  .skill-card {
+    padding: 30px 20px;
+  }
+
+  .skill-card img {
+    width: 80%;
+  }
+
+  /* Contact section style starts here  */
+  .contact-section form {
+    margin-top: 70px;
+  }
+}
+
+/* Responsive style sheet starts for 576px starts here  */
+
+@media (max-width: 768px) {
+  /* Fonst class starts here */
+  .h2-60-60-400 {
+    font-size: 30px;
+    line-height: 1em;
+    font-weight: 400;
+  }
+
+  .h1-70-70-900 {
+    font-size: 34px;
+    line-height: 1em;
+    font-weight: 900;
+  }
+
+  /* My advantage section starts here  */
+
+  .skill-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 15px;
+  }
+
+  .skill-card {
+    padding: 25px 15px;
+  }
+
+  .skill-card img {
+    width: 90%;
+  }
+}
+
+/* Responsive style sheet starts for 576px starts here  */
+
+@media (max-width: 576px) {
+  /* Font class style starts here  */
+
+  .h2-40-40-700 {
+    font-size: 40px;
+    line-height: 1em;
+    font-weight: 700;
+  }
+
+  .h2-60-60-400 {
+    font-size: 30px;
+    line-height: 1em;
+    font-weight: 400;
+  }
+
+  .h1-70-70-900 {
+    font-size: 34px;
+    line-height: 1em;
+    font-weight: 900;
+  }
+
+  /* Hero section style starts here  */
+  .hero-section {
+    height: 100vh;
+    padding-top: 300px;
+    background-image: url(./images/phone-size-hero-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  /* My advantage section starts here  */
+
+  .skill-wrapper {
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 70px;
+  }
+
+  .skill-card {
+    padding: 70px 20px;
+  }
+
+  .skill-card img {
+    width: 70%;
+    height: 70%;
+  }
+}
