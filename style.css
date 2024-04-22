@@ -52,6 +52,8 @@ body{
 
 
 
+
+
 /* Button class starts here  */
 
 .btn-1{
@@ -131,6 +133,7 @@ body{
 .navbar{
     position: fixed;
     z-index: 999;
+    backdrop-filter: blur(3px);
 }
 
 .nav-item{
