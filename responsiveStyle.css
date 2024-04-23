@@ -1,3 +1,5 @@
+
+
 /* Responsive style sheet starts for 980px starts here  */
 
 @media (max-width: 980px) {
@@ -7,7 +9,8 @@
     border-radius: 20px;
     text-align: center;
     background-color: #ffffff1a;   
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);   
+            backdrop-filter: blur(5px);
   }
 
   /* Button class style starts here  */
@@ -95,7 +98,9 @@
   /* My advantage section starts here  */
 
   .skill-wrapper {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: auto 30px auto 30px auto 30px auto 30px auto;
     grid-template-columns: auto auto auto auto auto;
     gap: 30px;
   }
@@ -133,7 +138,9 @@
   /* My advantage section starts here  */
 
   .skill-wrapper {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: auto 15px auto 15px auto 15px auto 15px auto;
     grid-template-columns: auto auto auto auto auto;
     gap: 15px;
   }
@@ -185,7 +192,9 @@
 
   .skill-wrapper {
     padding: 0 30px;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: auto 70px auto;
     grid-template-columns: auto auto;
     gap: 70px;
   }
