@@ -146,6 +146,14 @@ body{
     transition: 0.5s;
 }
 
+.navbar-brand{
+    width: 100px;
+}
+
+.navbar-brand img{
+    width: 100%;
+}
+
 .navbar-nav:hover .nav-item{
     -webkit-filter: blur(2px);
             filter: blur(2px);
@@ -164,15 +172,11 @@ body{
 
 /* Hero section style starts here  */
 .hero-section{
-    height: 100vh;
-    padding: 150px 0 0 0;
-    text-align: center;
-    background-image: url(./images/hero-img.svg);
-    -o-object-fit: fill;
-       object-fit: fill;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    height: 100vh; padding: 150px 0 0 0; text-align: center; background-image: url(./images/hero-img.svg); -o-object-fit: fill; -webkit-object-fit: fill; object-fit: fill; background-position: center; background-repeat: no-repeat; background-attachment: fixed; 
+    
+    /* -webkit-background-size: cover;  */
+    /* background-size: 100% 100%;  */
+
 }
 
 

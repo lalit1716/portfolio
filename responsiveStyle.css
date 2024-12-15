@@ -177,6 +177,16 @@
     font-weight: 900;
   }
 
+  /* Header section style starts here  */
+ .navbar-brand {
+    width: 80px;
+  }
+
+  .navbar-brand img {
+    width: 100%;
+  }
+
+
   /* Hero section style starts here  */
   .hero-section {
     height: 100vh;
@@ -200,7 +210,7 @@
   }
 
   .skill-card {
-    padding: 70px 20px;
+    padding: 50px 20px;
   }
 
   .skill-card img {
